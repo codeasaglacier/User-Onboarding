@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Form, Field } from 'formik'
-import Form from './form'
+import FormikUserForm from './form'
 
 
 export default function App() {
@@ -68,4 +68,4 @@ export default function App() {
   }
 }
 
-
+<FormikUserForm />
